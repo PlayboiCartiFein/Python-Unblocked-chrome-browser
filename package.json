@@ -4,8 +4,8 @@
   "description": "A simple web application for preview",
   "main": "index.html",
   "scripts": {
-    "dev": "python -m http.server 3000",
-    "start": "python -m http.server 3000"
+    "dev": "npx serve -s . -l 3000",
+    "start": "npx serve -s . -l 3000"
   },
   "keywords": ["web", "preview", "html"],
   "author": "",
